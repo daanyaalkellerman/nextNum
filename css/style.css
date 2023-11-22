@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid turquoise;
+    background-color: black;
+    border-radius: 5px;
+}
+h1{
+    color: red;
+    margin-top: 20px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .result {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        font-size: 24px;
+        color: blue;
+    }
